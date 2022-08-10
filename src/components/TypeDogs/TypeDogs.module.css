@@ -1,0 +1,36 @@
+.types {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.types li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.types li button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+.types li button.active {
+  color: #0070f3;
+}
+
+.types li button:hover {
+  color: #0070f3;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .types li button {
+    color: #fff;
+  }
+}
