@@ -1,6 +1,7 @@
 .types {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 2rem;
 }
@@ -32,5 +33,21 @@
 @media (prefers-color-scheme: dark) {
   .types li button {
     color: #fff;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .types {
+    padding: 0px;
+  }
+
+  .types li {
+    list-style: none;
+    margin-right: 0.2rem;
+  }
+
+  .types li button {
+    font-size: 1rem;
   }
 }
