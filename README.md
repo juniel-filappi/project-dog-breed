@@ -1,8 +1,8 @@
-Welcome to the challange Dog Breed
+Welcome to the project Dog Breed
 
 ## Installation
 ```bash
-git clone https://github.com/juninho-dev/dog-breed-challange
+git clone https://github.com/juninho-dev/project-dog-breed
 
 # after run
 npm install
